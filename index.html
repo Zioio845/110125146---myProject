@@ -1,56 +1,45 @@
 <!DOCTYPE html>		
 <html lang = "vi">
 	<head>
-		<title>Trang chủ</title>
+		<title>Thông tin sinh viên DA25TTB</title>
 		<meta charset = "utf-8">
-
-		<style>
-			div.menu{
-				width:250px;
-			}
-			div.menu a{
-				color: black;
-				display:block;
-				border: 3px solid aqua;
-				padding: 8px;
-				text-decoration: none;
-				margin: 5px;
-				text-align: center;
-			}
-			div.menu a:hover{
-				background-color: aqua;
-			}
-			div.text{
-				text-align: center;
-			}
-			body{
-				background-color: lightcyan;
-				/* background-image: url('assets/image/ダウンロード.jpg'); */
-				background-repeat: no-repeat;
-				background-size: 100% 100%;
-			}
-			/* Pseudo-class selectors */
-			button:focus{
-				background-color: yellow;
-			}
-		</style>
+		
+		<link rel="stylesheet" href="css/home.css">
 
 	</head>
 	<body>
 		<div class="text" >
-			<h1>Trang chủ đẹp trai</h1>
+			<h3>TRANG CHỦ</h3>
+			<h1>DANH SÁCH LỚP DA25TTB</h1>
 		</div>
-		<div class="menu" >
-			<a href ="html/page1.html" target = "_blank"> Trang 1 </a>
-			<a href ="html/page2.html" target = "_blank"> Trang 2 (câu chuyện về bài hát)</a>
-			<a href = "html/info.html">Bảng (chuẩn bị)</a>
-			<!-- link trong ảnh -->
-			<a href= "https://www.youtube.com/@J97imjack" >
-			<img src ="assets/image/image.jpg" alt="Hình đẹp trai" style="width: 50px; height: 50px;"> <br>
-			</a>
-			<a href ="https://www.youtube.com/@J97imjack" title="Kênh của jack 5 củ"> Kênh Youtube</a>
-			<br>
+
+		<div class = "menu">
+			<table>
+				<tr>
+					<td class="list">
+						<ul>
+							<li>
+								<a href="html/110125146.html" target="iframe" title="Tên">110125146</a>
+							</li>
+							<li>
+								<a href="html/menu.html" target="iframe" title="Tên">Home</a>
+							</li>
+						</ul>
+						
+					</td>
+					<td>
+						<iframe src = "html/menu.html" name="iframe" height = "700px"; width = "100%"; title="iframe"></iframe>
+					</td>
+				</tr>
+			</table>
 		</div>
-			<button onclick="document.location = 'html/video.html'">Video ca nhạc hay nhất</button>
+		
+		<!-- <div class="menu" >
+			<iframe src = "html/menu.html" name="iframe" height = "300px"; width = "75%"; title="iframe"></iframe>
+		</div>
+
+		<div class = "info">
+			
+		</div> -->
 	</body>
 </html>

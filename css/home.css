@@ -1,0 +1,40 @@
+div.text{
+    text-align: center;
+}
+
+div.text h1{
+    color: aqua;
+}
+
+/* body{
+    background-color: rgb(255, 232, 250);
+} */
+
+
+/* div.info{
+    color: black;
+	display:block;
+	border: 3px solid rgb(0, 0, 0);
+	padding-left: 8px;
+	text-decoration: none;
+	margin-left: 5px;
+	text-align: left;
+
+}    */
+
+table, th, td{
+    text-align: center;
+    border: 1px solid black;
+    margin: auto;
+}
+table{
+    width: 100%;
+}
+td.list{
+    width: 10%;
+}
+li{
+    border: 3px solid black;
+    padding: 5px;
+    margin: 5px;
+}
