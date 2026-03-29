@@ -3,7 +3,7 @@ div.text{
 }
 
 div.text h1{
-    color: aqua;
+    color: rgb(4, 176, 176);
 }
 
 /* body{
@@ -24,7 +24,7 @@ div.text h1{
 
 table, th, td{
     text-align: center;
-    border: 1px solid black;
+    /* border: 4px solid black; */
     margin: auto;
 }
 table{
@@ -33,14 +33,20 @@ table{
 td.list{
     width: 24%;
 }
+/* khung list danh sách sv */
 li{
-    border: 3px solid black;
+    border: 3px solid rgb(139, 20, 178);
     padding: 5px;
     margin: 5px;
 }
-
+li:hover{
+    background-color: yellow;
+}
 ul{
     list-style-type: none;
     padding: 0;
     margin: 0;
+}
+iframe{
+    border: 4px solid black;
 }
