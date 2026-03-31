@@ -34,14 +34,29 @@ td.list{
     width: 24%;
 }
 /* khung list danh sách sv */
-li{
+/* li{
     border: 3px solid rgb(139, 20, 178);
     padding: 5px;
     margin: 5px;
 }
 li:hover{
     background-color: yellow;
+} */
+a:link, a:visited {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: 3px solid rgb(139, 20, 178);
+  padding: 15px 200px;
+  margin: 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
+
+a:hover{
+  background-color: yellow;
+}
+
 ul{
     list-style-type: none;
     padding: 0;
@@ -50,3 +65,4 @@ ul{
 iframe{
     border: 4px solid black;
 }
+
