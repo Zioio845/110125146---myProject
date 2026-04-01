@@ -11,16 +11,6 @@ div.text h1{
 } */
 
 
-/* div.info{
-    color: black;
-	display:block;
-	border: 3px solid rgb(0, 0, 0);
-	padding-left: 8px;
-	text-decoration: none;
-	margin-left: 5px;
-	text-align: left;
-
-}    */
 
 table, th, td{
     text-align: center;
@@ -49,7 +39,7 @@ a:link, a:visited {
   background-color: #ffffff;
   color: rgb(0, 0, 0);
   border: 3px solid rgb(139, 20, 178);
-  padding: 15px 200px;
+  padding: 10px 100px;
   margin: 3px;
   text-align: center;
   text-decoration: none;
